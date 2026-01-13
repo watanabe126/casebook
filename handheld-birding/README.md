@@ -5,4 +5,4 @@
 単一製品のレビューではなく、
 「600mmの日」「散歩の日」をどう切り分けるかを扱う。
 
-- [2026-01-handheld-600mm-decision-log](./2026-01-handheld-600mm-decision-log.md)
+- [2026-01-handheld-600mm-decision-log](/2026-01-handheld-600mm-decision-log.md)
