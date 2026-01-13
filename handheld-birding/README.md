@@ -5,4 +5,4 @@
 単一製品のレビューではなく、
 「600mmの日」「散歩の日」をどう切り分けるかを扱う。
 
-- [手持ち野鳥（handheld-birding）](./handheld-birding/README.md)：600mm常用／運用分離の意思決定ログ
+- [2026-01-handheld-600mm-decision-log](./handheld-birding/2026-01-handheld-600mm-decision-log.md)
