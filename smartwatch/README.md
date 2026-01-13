@@ -64,5 +64,5 @@
 
 ## 関連テンプレート
 
-- `templates/case-template.md`  
+- `smartwatch/case-template.md`  
   → 本カテゴリの事例も基本的にこのテンプレートを使用する
