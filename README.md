@@ -1,5 +1,17 @@
 # casebook
 
+## 目次
+- [概要](#概要)
+- [方針](#方針)
+- [ディレクトリ構成](#ディレクトリ構成)
+- [事例フォーマット](#事例フォーマット)
+- [使い方](#使い方)
+- [ライセンス](#ライセンス)
+
+---
+
+## 概要
+
 個人的な意思決定・検討プロセスを「事例集」として蓄積するためのリポジトリ。
 
 - カメラ／ガジェットの購入判断
@@ -11,6 +23,9 @@
 
 **結論だけでなく、判断に至る過程を残す**ことを目的とする。
 
+正解集ではなく、  
+「当時その判断に至った理由」「その時点での前提と制約」を保存するケースブック。
+
 ---
 
 ## 方針
@@ -18,20 +33,40 @@
 - 1事例 = 1ファイル（Markdown）
 - 時系列で残す（後から見返せることを重視）
 - 正解を押し付けない
-- 当時の前提条件・制約を明示する
+- 当時の前提条件・制約を必ず明示する
+- 結論と判断理由を分離して書く
+- 失敗・妥協点も記録対象とする
 
 ---
 
 ## ディレクトリ構成
+
 ```
 casebook/
-cases/
-camera-shopping/
-kids-device/
-carry-system/
-templates/
-assets/
+├─ README.md
+├─ cases/
+│ ├─ camera-shopping/
+│ │ ├─ README.md
+│ │ ├─ 2026-01-dsi-kids-device.md
+│ │ └─ 2026-01-walk-strap-system.md
+│ ├─ kids-device/
+│ │ └─ README.md
+│ ├─ carry-system/
+│ │ └─ README.md
+│ ├─ smartwatch/
+│ │ └─ README.md
+│ └─ network/
+│   └─ README.md
+├─ templates/
+│   └─ case-template.md
+└─ assets/
 ```
+
+### ルール
+- `cases/` 配下はカテゴリ単位
+- 各カテゴリに `README.md`（簡易目次）
+- ファイル名は `YYYY-MM-内容.md`
+- 1ファイル = 1つの意思決定
 
 ---
 
@@ -50,15 +85,26 @@ assets/
 適用範囲:
 ```
 
+テンプレートは  
+`templates/case-template.md` を参照。
 
-テンプレートは `templates/case-template.md` を参照。
+---
+
+## 使い方
+
+- 将来の自分が「なぜその判断をしたか」を思い出すため
+- 家族・知人に判断理由を説明するため
+- 同じ検討を何度もしないため
+- 仕事・設計思想・転職時のアウトプットとして再利用するため
+
+Markdown 前提のため、**GitHub Web UI のみで運用可能**。
 
 ---
 
 ## ライセンス
 
 本リポジトリの文章コンテンツは  
-**Creative Commons Attribution 4.0 International (CC BY 4.0)**  
+Creative Commons Attribution 4.0 International (CC BY 4.0)  
 の下で公開する。
 
 - 再利用・改変・再配布可
@@ -66,8 +112,5 @@ assets/
 
 詳細は `LICENSE` を参照。
 
-
 Attribution example:
 © watanabe126, licensed under CC BY 4.0
-
-
