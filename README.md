@@ -66,3 +66,8 @@ assets/
 
 詳細は `LICENSE` を参照。
 
+
+Attribution example:
+© watanabe126, licensed under CC BY 4.0
+
+
