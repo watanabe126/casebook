@@ -7,7 +7,7 @@
 正解集ではない。
 
 ## 収録内容
-- [手持ち前提の野鳥撮影](./cases/camera-shopping/handheld-birding/README.md)
+- [手持ち前提の野鳥撮影](./camera-shopping/handheld-birding/README.md)
   - 600mm常用／運用分離／観測手法の意思決定ログ
 - [カメラ・ガジェットの購入判断](#todo)
 - [子育てフェーズの機材・デバイス選定](#todo)
