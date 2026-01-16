@@ -14,6 +14,7 @@
 - [携行・持ち出しシステム](#todo)
 - [スマートウォッチ運用](#todo)
 - [ネットワーク／回線運用](#todo)
+- [思考実験：止まれない人への対応と事故時ダメージコントロール](./thought_experiments/unstoppable_person_response_framework.md)
 
 ## ルール（最小）
 - 1ファイル = 1つの意思決定
