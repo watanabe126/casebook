@@ -9,12 +9,13 @@
 ## 収録内容
 - [手持ち前提の野鳥撮影](./handheld-birding/README.md)
   - 600mm常用／運用分離／観測手法の意思決定ログ
+- [思考実験：止まれない人への対応と事故時ダメージコントロール](./thought_experiments/unstoppable_person_response_framework.md)
+- [自宅用監視カメラ 常時表示構成（個人最適・妥協点）](./gadget/2026-01-home_monitoring_display.md)
 - [カメラ・ガジェットの購入判断](#todo)
 - [子育てフェーズの機材・デバイス選定](#todo)
 - [携行・持ち出しシステム](#todo)
 - [スマートウォッチ運用](#todo)
 - [ネットワーク／回線運用](#todo)
-- [思考実験：止まれない人への対応と事故時ダメージコントロール](./thought_experiments/unstoppable_person_response_framework.md)
 
 ## ルール（最小）
 - 1ファイル = 1つの意思決定
